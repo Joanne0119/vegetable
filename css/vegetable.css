@@ -50,3 +50,15 @@ header .header-right button {
   font-weight: 700;
   margin: 0 0.7rem 0 1.1rem ;
 }
+
+nav {
+  display: flex;
+  justify-content: start;
+  background-color: #778A50;
+}
+
+nav h2 {
+  font-size: 1.6rem;
+  color: #EDF2C5;
+  margin: 1rem 3rem;font-weight: 900;
+}
