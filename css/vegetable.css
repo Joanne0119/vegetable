@@ -1,0 +1,52 @@
+* 
+{
+  border: solid red 1px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+  font-size: 10px;
+  background-color: #EDF2C5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: #778A50;
+  font-size: 4.4rem;
+  font-weight: 900;
+}
+
+header .header-right {
+  padding: 1rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+header .header-right img {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin: 0 0 0 1.2rem;
+}
+
+/* line : using border to draw a line */
+.btn-instagram { 
+  padding-right: 1rem;
+  border-right: solid 1px #778A50;
+}
+
+header .header-right button {
+  padding: 0.4rem 0.8rem;
+  color: #778A50;
+  border: solid #778A50 1px;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0.7rem 0 1.1rem ;
+}
